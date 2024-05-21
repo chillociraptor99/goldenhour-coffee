@@ -1,5 +1,5 @@
 body {
-    color: #00ff00;
+    color: #928a80;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
@@ -144,4 +144,51 @@ button {
     justify-content: flex-end;  
     font-size: 18px;
     font-weight: 700;
+}
+
+.bannerbottom {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #cfb87e;
+    border: 1px solid #cfb87e;
+    border-radius: 4px;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.bannertexts {
+    text-align: left;
+}
+
+.bannerup {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.bannerdown {
+    font-size: 13px;
+}
+
+.bannerbutton {
+    justify-content: center;
+    align-content: center;
+}
+
+.sbutton2 {
+    border: 1px solid #fff;
+}
+
+.bottombar {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #453f39;
+    color: #fff;
+    padding: 15px;
 }
