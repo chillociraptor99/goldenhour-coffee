@@ -1,8 +1,47 @@
 body {
     color: #00ff00;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 a {
     text-decoration: none;
+    color: #998b7d;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.topbar {
+    background-color: #453f39;
+    color: #ded7d1;
+}
+
+.signupbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.innerbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentblock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.textbox {
+    order: 2;
+}
