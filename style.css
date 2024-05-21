@@ -58,8 +58,7 @@ h1 {
 
 .smallertxt, 
 .biggertxt {
-    flex: 0;
-    width: 350px;
+    flex: 1;
     margin-right: 30px;
 }
 
@@ -67,6 +66,7 @@ h1 {
     font-size: 48px;
     font-weight: 700;
     display: flex;
+    width: 350px;
 }
 
 .toplinks {
